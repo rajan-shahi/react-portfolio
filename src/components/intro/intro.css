@@ -1,6 +1,7 @@
 .i {
   display: flex;
   height: 100vh;
+  
 }
 
 .i-left {
@@ -35,11 +36,17 @@
 .i-title {
   height: 50px;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
 }
 
 .i-title-wrapper {
   height: 100%;
   animation: move 10s ease-in-out infinite alternate;
+ 
+ 
   
 }
 
@@ -65,6 +72,12 @@
   color: #59b256;
   display: flex;
   align-items: center;
+}
+
+.i-desc{
+  font-size: 15px;
+  font-weight: 500;
+  color: gray;
 }
 
 .i-right {
