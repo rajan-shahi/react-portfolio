@@ -1,5 +1,6 @@
 import React from "react";
 import "./about.css";
+import Award from "../../img/award.png"
 
 export default function About() {
   return (
@@ -26,6 +27,16 @@ export default function About() {
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip ex ea commodo consequat duis aute irure dolor in reprehende.
         </p>
+        <div className="a-award">
+          <img src={Award} alt="" className="a-img-award" />
+          <div className="a-award-texts">
+            <h4 className="a-award-title">International Design Awards 2021</h4>
+            <p className="a-award-desc">
+              Nemo enim ipsam voluptatem quia voluptas sit aspernatur autodit
+              and fugit.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );
