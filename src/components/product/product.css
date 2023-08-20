@@ -23,12 +23,11 @@
     margin: 3px;
     background-color: white;
 }
-
-.p-img{
+.p-img {
     width: 100%;
-    transition: all 10s ease ;
-}
-
-.p:hover.p-img{
+    transition: all 10s ease;
+  }
+  
+  .p:hover .p-img {
     transform: translateY(-100%);
-}
+  }
