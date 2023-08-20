@@ -19,6 +19,9 @@
     margin: 20px 0px;
 }
 
-.p-list{
+.pl-list{
+    width: 100%;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
