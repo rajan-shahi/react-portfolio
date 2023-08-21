@@ -98,7 +98,7 @@
   width: 50%;
   object-fit: cover;
   position: absolute;
-margin-left: 400px;
+
 }
 
 .i-bg {
@@ -133,4 +133,3 @@ margin-left: 400px;
     display: none;
   }
   
-}
