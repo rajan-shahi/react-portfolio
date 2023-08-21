@@ -119,11 +119,14 @@ margin-left: 400px;
   }
 
   
+  .i-bg{
+    position: relative;
+  }
 .i-img {
   height: 100%;
   width: 50%;
   object-fit: cover;
-  
+  position: absolute;
 
 }
   .i-left-wrapper {
