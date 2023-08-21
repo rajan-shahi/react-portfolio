@@ -85,6 +85,11 @@ button{
     width: 100px;
 }
 
+.button-wrp{
+  display: flex;
+  justify-content: end;
+}
+
 
   
 @media screen and (max-width: 480px) {
@@ -94,7 +99,7 @@ button{
     }
   
     .c{
-      height: 70vh;
+      height: 80vh;
     }
     .c-title {
       font-size: 30px;
