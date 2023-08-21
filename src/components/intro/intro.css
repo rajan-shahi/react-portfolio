@@ -98,6 +98,7 @@
   width: 50%;
   object-fit: cover;
   position: absolute;
+margin-left: 400px;
 }
 
 .i-bg {
@@ -117,6 +118,14 @@
     flex-direction: column;
   }
 
+  
+.i-img {
+  height: 100%;
+  width: 50%;
+  object-fit: cover;
+  position: absolute;
+
+}
   .i-left-wrapper {
   
     padding: 10px;
