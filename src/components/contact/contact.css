@@ -124,10 +124,7 @@ button {
 
   button {
     margin-top: 10px;
+    margin-right: 0px;
   }
-
-  .button-wrp {
-    display: flex;
-    justify-content: end;
-  }
+  
 }
