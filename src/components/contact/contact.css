@@ -93,6 +93,9 @@ button{
       padding: 0px 50px;
     }
   
+    .c{
+      height: 70vh;
+    }
     .c-title {
       font-size: 30px;
     }
