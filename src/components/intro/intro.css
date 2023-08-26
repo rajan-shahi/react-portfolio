@@ -1,7 +1,6 @@
 .i {
   display: flex;
   height: 100vh;
-  
 }
 
 .i-left {
@@ -43,15 +42,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
 
 .i-title-wrapper {
   height: 100%;
   animation: move 10s ease-in-out infinite alternate;
- 
- 
-  
 }
 
 @keyframes move {
@@ -78,7 +73,7 @@
   align-items: center;
 }
 
-.i-desc{
+.i-desc {
   font-size: 15px;
   font-weight: 500;
   color: gray;
@@ -98,7 +93,6 @@
   width: 50%;
   object-fit: cover;
   position: absolute;
-
 }
 
 .i-bg {
@@ -111,26 +105,19 @@
   right: 0;
 }
 
-
-
 @media screen and (max-width: 480px) {
   .i {
     flex-direction: column;
   }
-
-
 }
-  .i-left-wrapper {
-  
-    padding: 10px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    height: 100%;
-  }
+.i-left-wrapper {
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
 
-  .i-desc{
-    display: none;
-  }
-  
-
+.i-desc {
+  display: none;
+}

@@ -15,8 +15,8 @@ const Contact = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_2iuxzfr",
-        "template_25i1uqc",
+        "service_grbr088",
+        "template_yp18lv4",
         formRef.current,
         "c222nbjoJiU-ot_mM"
       )
@@ -68,13 +68,13 @@ const Contact = () => {
               style={{ backgroundColor: darkMode && "#333" }}
               type="text"
               placeholder="Subject"
-              name="user_subject"
+              name="user-subject"
             />
             <input
               style={{ backgroundColor: darkMode && "#333" }}
               type="text"
               placeholder=" Your Email"
-              name="user_email"
+              name="user-email"
             />
             <textarea
               style={{ backgroundColor: darkMode && "#333" }}
